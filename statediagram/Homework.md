@@ -50,3 +50,75 @@ state drink{
 ![]()
 
 
+รูปที่ 3
+```
+Code
+```
+```
+@startuml
+
+[*] --> Cafe
+state Cafe{
+state "Order Coffee" as order
+state "wait a  Coffee" as wait
+state "recive a  Coffee" as recive
+  [*] -> order
+ order -r-> cashmoney
+ cashmoney -r-> wait
+ wait  -r-> recive 
+ }
+@enduml
+```
+
+![]()
+
+
+รูปที่ 4
+```
+Code
+```
+```
+@startuml 
+state "Login to Internet" as login
+[*] --> login
+state login{
+state "Connect to internet" as connect
+state "Open Web Browser" as open
+state "Insert Username and Password" as insert
+state "Click 'Login'" as click
+  [*] -> connect
+ connect -u-> open
+ open -r-> insert
+ insert  -r-> click 
+ }
+@enduml
+```
+
+![]()
+
+
+รูปที่ 5
+```
+Code
+```
+```
+@startuml 
+state "Print Document" as Document
+[*] --> Document
+state Document{
+state "Open Office word" as open
+state "Key Data to Document" as key
+state "Save Data File" as save
+state "Select size paper" as select
+state "Print to paper" as print
+  [*] -> open : Open Program
+ open -u-> key :
+ key -r-> save
+ save  -r-> select 
+ select  -r-> print
+ }
+@enduml
+```
+
+![]()
+
