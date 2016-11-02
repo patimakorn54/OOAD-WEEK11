@@ -122,3 +122,141 @@ state "Print to paper" as print
 
 ![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/5.png?raw=true)
 
+
+##Activity Diagram
+
+
+
+รูปที่ 6 พิมพ์เอกสาร
+```
+Code
+```
+```
+@startuml 
+state "Print Document" as Document
+[*] --> Document
+state Document{
+state "Open Office word" as open
+state "Key Data to Document" as key
+state "Save Data File" as save
+state "Select size paper" as select
+state "Print to paper" as print
+  [*] -> open : Open Program
+ open -u-> key :
+ key -r-> save
+ save  -r-> select 
+ select  -r-> print
+ }
+@enduml
+```
+
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/5.png?raw=true)
+
+
+รูปที่ 7 พิมพ์เอกสาร
+```
+Code
+```
+```
+@startuml 
+state "Print Document" as Document
+[*] --> Document
+state Document{
+state "Open Office word" as open
+state "Key Data to Document" as key
+state "Save Data File" as save
+state "Select size paper" as select
+state "Print to paper" as print
+  [*] -> open : Open Program
+ open -u-> key :
+ key -r-> save
+ save  -r-> select 
+ select  -r-> print
+ }
+@enduml
+```
+
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/5.png?raw=true)
+
+
+
+รูปที่ 8 พิมพ์เอกสาร
+```
+Code
+```
+```
+@startuml 
+state "Print Document" as Document
+[*] --> Document
+state Document{
+state "Open Office word" as open
+state "Key Data to Document" as key
+state "Save Data File" as save
+state "Select size paper" as select
+state "Print to paper" as print
+  [*] -> open : Open Program
+ open -u-> key :
+ key -r-> save
+ save  -r-> select 
+ select  -r-> print
+ }
+@enduml
+```
+
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/5.png?raw=true)
+
+
+
+รูปที่ 9 พิมพ์เอกสาร
+```
+Code
+```
+```
+@startuml 
+state "Print Document" as Document
+[*] --> Document
+state Document{
+state "Open Office word" as open
+state "Key Data to Document" as key
+state "Save Data File" as save
+state "Select size paper" as select
+state "Print to paper" as print
+  [*] -> open : Open Program
+ open -u-> key :
+ key -r-> save
+ save  -r-> select 
+ select  -r-> print
+ }
+@enduml
+```
+
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/5.png?raw=true)
+
+
+
+
+รูปที่ 10 พิมพ์เอกสาร
+```
+Code
+```
+```
+@startuml 
+state "Print Document" as Document
+[*] --> Document
+state Document{
+state "Open Office word" as open
+state "Key Data to Document" as key
+state "Save Data File" as save
+state "Select size paper" as select
+state "Print to paper" as print
+  [*] -> open : Open Program
+ open -u-> key :
+ key -r-> save
+ save  -r-> select 
+ select  -r-> print
+ }
+@enduml
+```
+
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/5.png?raw=true)
+
