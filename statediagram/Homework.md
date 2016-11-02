@@ -29,7 +29,7 @@ receiveatm -up-> Finish
 ![]()
 
 
-รูปที่ 2
+รูปที่ 2 ตู้หยอดน้ำดื่ม
 ```
 Code
 ```
@@ -50,7 +50,7 @@ state drink{
 ![]()
 
 
-รูปที่ 3
+รูปที่ 3 ร้านกาแฟ
 ```
 Code
 ```
@@ -73,7 +73,7 @@ state "recive a  Coffee" as recive
 ![]()
 
 
-รูปที่ 4
+รูปที่ 4 ลงชื่อเข้าใช้ Internet
 ```
 Code
 ```
@@ -97,7 +97,7 @@ state "Click 'Login'" as click
 ![]()
 
 
-รูปที่ 5
+รูปที่ 5 พิมพ์เอกสาร
 ```
 Code
 ```
