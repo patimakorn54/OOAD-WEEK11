@@ -26,7 +26,7 @@ receiveatm -up-> Finish
 @enduml
 ```
 
-![]()
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/1.png?raw=true)
 
 
 รูปที่ 2 ตู้หยอดน้ำดื่ม
@@ -47,7 +47,7 @@ state drink{
 @enduml
 ```
 
-![]()
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/2.png?raw=true)
 
 
 รูปที่ 3 ร้านกาแฟ
@@ -70,7 +70,7 @@ state "recive a  Coffee" as recive
 @enduml
 ```
 
-![]()
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/3.png?raw=true)
 
 
 รูปที่ 4 ลงชื่อเข้าใช้ Internet
@@ -94,7 +94,7 @@ state "Click 'Login'" as click
 @enduml
 ```
 
-![]()
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/4.png?raw=true)
 
 
 รูปที่ 5 พิมพ์เอกสาร
@@ -120,5 +120,5 @@ state "Print to paper" as print
 @enduml
 ```
 
-![]()
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/5.png?raw=true)
 
