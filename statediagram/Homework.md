@@ -29,4 +29,24 @@ receiveatm -up-> Finish
 ![]()
 
 
+รูปที่ 2
+```
+Code
+```
+```
+@startuml
+state "Drink water machine" as drink
+state "Place a bottle" as place
+[*] --> drink
+
+state drink{
+  [*] -> SelectVolumeWater
+ SelectVolumeWater --> InsertCoin
+ InsertCoin --> place
+ place --> Recivewater 
+@enduml
+```
+
+![]()
+
 
