@@ -127,7 +127,7 @@ state "Print to paper" as print
 
 
 
-รูปที่ 6 พิมพ์เอกสาร
+รูปที่ 6 Login Windows
 ```
 Code
 ```
@@ -148,7 +148,7 @@ Endif
 ![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/6.png?raw=true)
 
 
-รูปที่ 7 พิมพ์เอกสาร
+รูปที่ 7 ปฏิทิน
 ```
 Code
 ```
@@ -170,7 +170,7 @@ Endif
 
 
 
-รูปที่ 8 พิมพ์เอกสาร
+รูปที่ 8 ขายบัตร
 ```
 Code
 ```
@@ -192,7 +192,7 @@ Endif
 
 
 
-รูปที่ 9 พิมพ์เอกสาร
+รูปที่ 9 ขับรถ
 ```
 Code
 ```
@@ -215,7 +215,7 @@ Endif
 
 
 
-รูปที่ 10 พิมพ์เอกสาร
+รูปที่ 10 ใช้บริการห้องคอมพิวเตอร์
 ```
 Code
 ```
