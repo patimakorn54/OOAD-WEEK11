@@ -132,21 +132,16 @@ state "Print to paper" as print
 Code
 ```
 ```
-@startuml 
-state "Print Document" as Document
-[*] --> Document
-state Document{
-state "Open Office word" as open
-state "Key Data to Document" as key
-state "Save Data File" as save
-state "Select size paper" as select
-state "Print to paper" as print
-  [*] -> open : Open Program
- open -u-> key :
- key -r-> save
- save  -r-> select 
- select  -r-> print
- }
+@startuml
+(*) --> "Insert Password"
+
+if "Key Password" then
+  -->[true] "Open Windows"
+  --> (*)
+else
+  ->[false] "Insert Again"
+  -->(*)
+Endif
 @enduml
 ```
 
@@ -158,21 +153,16 @@ state "Print to paper" as print
 Code
 ```
 ```
-@startuml 
-state "Print Document" as Document
-[*] --> Document
-state Document{
-state "Open Office word" as open
-state "Key Data to Document" as key
-state "Save Data File" as save
-state "Select size paper" as select
-state "Print to paper" as print
-  [*] -> open : Open Program
- open -u-> key :
- key -r-> save
- save  -r-> select 
- select  -r-> print
- }
+@startuml
+(*) --> "Calender"
+
+if "24 Hr." then
+  -->[true] "Change Date"
+  --> (*)
+else
+  ->[false] "Stay Date"
+  -->(*)
+Endif
 @enduml
 ```
 
@@ -185,21 +175,16 @@ state "Print to paper" as print
 Code
 ```
 ```
-@startuml 
-state "Print Document" as Document
-[*] --> Document
-state Document{
-state "Open Office word" as open
-state "Key Data to Document" as key
-state "Save Data File" as save
-state "Select size paper" as select
-state "Print to paper" as print
-  [*] -> open : Open Program
- open -u-> key :
- key -r-> save
- save  -r-> select 
- select  -r-> print
- }
+@startuml
+(*) --> "Sell Ticket"
+
+if "Have Money" then
+  -->[true] "Buy Ticket"
+  --> (*)
+else
+  ->[false] "Not Sell Ticket"
+  -->(*)
+Endif
 @enduml
 ```
 
@@ -212,21 +197,16 @@ state "Print to paper" as print
 Code
 ```
 ```
-@startuml 
-state "Print Document" as Document
-[*] --> Document
-state Document{
-state "Open Office word" as open
-state "Key Data to Document" as key
-state "Save Data File" as save
-state "Select size paper" as select
-state "Print to paper" as print
-  [*] -> open : Open Program
- open -u-> key :
- key -r-> save
- save  -r-> select 
- select  -r-> print
- }
+@startuml
+(*) --> "Drive Car"
+
+if "Fuel Full" then
+  -->[true] "Drive"
+  --> (*)
+else
+  ->[false] "Fuel Fill"
+  -->(*)
+Endif
 @enduml
 ```
 
@@ -240,21 +220,16 @@ state "Print to paper" as print
 Code
 ```
 ```
-@startuml 
-state "Print Document" as Document
-[*] --> Document
-state Document{
-state "Open Office word" as open
-state "Key Data to Document" as key
-state "Save Data File" as save
-state "Select size paper" as select
-state "Print to paper" as print
-  [*] -> open : Open Program
- open -u-> key :
- key -r-> save
- save  -r-> select 
- select  -r-> print
- }
+@startuml
+(*) --> "Room Computer"
+
+if "Have Member card" then
+  -->[true] "Use Rooom Computer๊"
+  --> (*)
+else
+  ->[false] "Register Member Card"
+  -->(*)
+Endif
 @enduml
 ```
 
