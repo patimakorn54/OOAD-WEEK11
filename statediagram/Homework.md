@@ -145,7 +145,7 @@ Endif
 @enduml
 ```
 
-![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/5.png?raw=true)
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/6.png?raw=true)
 
 
 รูปที่ 7 พิมพ์เอกสาร
@@ -166,7 +166,7 @@ Endif
 @enduml
 ```
 
-![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/5.png?raw=true)
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/7.png?raw=true)
 
 
 
@@ -188,7 +188,7 @@ Endif
 @enduml
 ```
 
-![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/5.png?raw=true)
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/8.png?raw=true)
 
 
 
@@ -210,7 +210,7 @@ Endif
 @enduml
 ```
 
-![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/5.png?raw=true)
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/9.png?raw=true)
 
 
 
@@ -233,5 +233,5 @@ Endif
 @enduml
 ```
 
-![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/5.png?raw=true)
+![](https://github.com/patimakorn54/OOAD-WEEK11/blob/master/statediagram/10.png?raw=true)
 
